@@ -3,7 +3,6 @@ import openai
 import csv
 import pandas as pd
 from PIL import Image
-from dotenv import load_dotenv
 import os
 
 from langchain.chat_models import ChatOpenAI
