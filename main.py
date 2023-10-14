@@ -54,7 +54,7 @@ def chatbot(query):
 First you will identify the above problems in the given HTML code.
 Then you will write the code fixing the mentioned issues.
 If you see an issue that falls outside the range of the above 10 criteria, say 'Sorry this is outside the scope of my expertise.'
-If you receive any query from the user that does not related to  HTML or correcting HTML code, say 'Sorry I can not answer that, kindly 
+If you receive any query from the user that does not related to HTML or  HTML code, say 'Sorry I can not answer that, kindly 
 provide me topics related to HTML"""
         messages = [SystemMessage(content=system_prompt)]
         for i in range(len(query)):
