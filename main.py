@@ -1,6 +1,4 @@
 import streamlit as st
-import random
-import time
 import openai
 import csv
 import pandas as pd
