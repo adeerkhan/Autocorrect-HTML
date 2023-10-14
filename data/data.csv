@@ -1,0 +1,11 @@
+Common HTML Bad Coding Practices,Proper Coding Practices
+1. Missing Doctype Declaration,"Include a valid HTML doctype declaration at the beginning of your HTML document to define the document type (e.g., <!DOCTYPE html> for HTML5)."
+2. Excessive Inline Styles,"Use external CSS files to define styles for HTML elements, separating content from presentation for easier maintenance."
+3. Lack of Semantic HTML,"Employ semantic HTML elements (e.g., <header>, <nav>, <article>) for their intended purposes to provide a meaningful content structure."
+4. Unclosed Tags,"Always close HTML tags properly, ensuring that every opening tag has a corresponding closing tag or use self-closing tags with a forward slash (e.g., <img src=""image.jpg"" />)."
+5. Overuse of <br> Tags,"Use CSS properties (e.g., margin, padding) for spacing and layout instead of overusing <br> tags. Reserve <br> for breaking text within paragraphs."
+6. Improper Nesting,Properly nest HTML elements to match the logical structure of the document and ensure opening and closing tags are correctly matched.
+7. Inline JavaScript,Place JavaScript code in external .js files and link them using the <script> element for code reusability and maintainability.
+8. Large Image Files,Optimize images by resizing and compressing them to reduce file size while maintaining quality and using appropriate image formats.
+9. Tables for Layout,"Use HTML tables exclusively for tabular data and employ CSS (e.g., flexbox, grid) for layout design, avoiding tables for layout."
+10. Ignoring Accessibility,"Ensure accessibility by providing descriptive alternative text for images, using proper heading structure, and implementing keyboard navigation as per web accessibility standards (e.g., WCAG)."
